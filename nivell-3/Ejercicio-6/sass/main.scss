@@ -1,0 +1,241 @@
+@import "../css/bootstrap.min.css";
+
+$primary: #5265E1;
+$secondary: #FA5959;
+
+$blue:rgb(37, 37, 66);
+
+$navbar-light-toggler-border-color: none;
+$navbar-padding-y: 2em;
+$navbar-light-hover-color: $secondary;
+
+
+$nav-tabs-border-color: none;
+$nav-link-color: #6e6d6d;
+$nav-link-hover-color: $secondary;
+
+
+$border-color: #6e6d6d;
+
+$accordion-icon-color: $primary;
+$accordion-icon-active-color: $secondary;
+
+$accordion-button-icon:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-color}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+$accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-active-color}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+
+$form-feedback-invalid-color: $secondary;
+
+
+$navbar-light-toggler-icon-bg: url("Imagenes/icon-hamburger.svg");
+
+$form-feedback-icon-invalid: url("Imagenes/icon-error.svg");
+.btn{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.14);
+}
+
+.btn-secondary{
+    background-color: $secondary;
+    border: none;
+    color:white;
+    width: 7em;
+
+    &:hover{
+    color: $secondary;
+    width: 7em;
+    background-color: white;
+    border: 1px solid $secondary;
+    }
+}
+
+.btn-primary{
+    background-color: $primary;
+    &:hover{color: $primary;
+        background-color: white;}
+    
+}
+
+.btn-light:hover{
+    border-color: black;
+    color: black;
+    background-color: white;
+
+}
+.accordion-button:hover{
+    color: $secondary;
+}
+.nav-link {
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    color:gray;
+    &:hover{
+        color: $secondary;
+        border: none;
+    }
+}
+.navbar-expand-lg .navbar-nav {
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+   
+}
+
+.navbar-link{
+    font-family: unset;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    
+    &:hover{
+        color:$secondary;
+    }
+}
+
+
+.nav-tabs{
+    border:0;
+}
+
+.nav-link.active {
+    border:0;
+    border-bottom: 3px solid $secondary !important; 
+    color: black;
+    font-weight: bold;
+}
+
+
+.illustration-hero, .illustration-features-1{
+    width: 30em;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+}
+
+.figure {
+    position: relative;
+    height:15rem;
+    background: $primary;
+    top: 7rem;
+    width: 38vw;
+}
+
+.fig-right{
+    border-radius: 100px 0 0 100px;
+    left: 10vw;
+}
+
+.fig-left{
+    border-radius:  0 100px 100px 0;
+    left: -10vw;
+}
+
+.column-right,.column-left-2{
+    height: 20rem;
+}
+
+
+.footer-nav{
+    background-color: $blue;
+}
+.footer__link{
+    color:white;
+}
+
+.container-footer{
+    height: 18rem;
+    background-color: $primary !important;
+    
+}
+
+.paragraph-footer{
+    font-family: monospace;
+    font-size: small;
+}
+
+.invalid-feedback{
+    background-color: #FA5959;
+    color: white;
+    margin-top: 0;
+    border-radius: 0 0 5px 5px;
+}
+
+.facebook{
+    fill:white;
+    &:hover{
+     fill:$secondary;
+   }
+}
+
+.twitter{
+    fill:white;
+    &:hover{
+        fill:$secondary;
+    }
+}
+
+.container-card{
+
+    .column_card1{
+        margin-top: 1rem; 
+        margin-bottom: -1rem;
+    }
+    .column_card2{
+        margin-top: 2rem;
+        margin-bottom: -2rem;
+    }
+    .column_card3{
+        margin-top: 3rem;
+         margin-bottom: -3rem;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .fig-right{
+        width: 65vw;
+        left: 17vw;
+        top: 9rem;
+    }
+
+    .fig-left{
+        width: 65vw;
+        left: -20vw;
+        
+    }
+    .column-right, .column-left-2{
+        height: 25rem;
+    }
+
+    .container-card{
+        height: auto;
+    }
+
+    .list_features{
+        .nav-item:first-child{
+            border-top: 1px solid grey;
+        }
+    }
+    
+    .accordion{
+        .accordion-item:first-child{
+            border-top: 1px solid rgba(145, 145, 145, 0.431);
+        }
+        .accordion-item:last-child{
+            border-bottom: 1px solid rgba(145, 145, 145, 0.431);
+        }
+    }
+    
+        
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .fig-right{
+        width: 65vw;
+        left: 17vw;
+        top: 7rem;
+    }
+
+    .fig-left{
+        width: 77vw;
+        left: -12vw;
+        top: 9rem;
+    }
+
+}

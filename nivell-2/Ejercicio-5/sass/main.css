@@ -1,0 +1,151 @@
+@import "../css/bootstrap.min.css";
+.btn {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.14);
+}
+.btn-secondary {
+  background-color: #FA5959;
+  border: none;
+  color: white;
+  width: 7em;
+}
+.illustration-hero {
+  width: 30em;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+}
+.btn-primary {
+  background-color: #5265E1;
+}
+
+.navbar-link {
+  font-family: unset;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+.nav-tabs {
+  border: 0;
+}
+
+.nav-link.active {
+  border: 0;
+  border-bottom: 3px solid #FA5959 !important;
+  color: black;
+  font-weight: bold;
+}
+.navbar-expand-lg .navbar-nav  {
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+}
+.nav-link {
+  color: gray;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+}
+
+.illustration-features-1 {
+  width: 30em;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+}
+
+.figure {
+  position: relative;
+  height: 15rem;
+  background: #5265E1;
+  top: 7rem;
+  width: 38vw;
+}
+.fig-right {
+  border-radius: 100px 0 0 100px;
+  left: 10vw;
+}
+.fig-left {
+  border-radius: 0 100px 100px 0;
+  left: -10vw;
+}
+
+.column-left-2 {
+  height: 20rem;
+}
+
+.container-card .column_card1 {
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+}
+.container-card .column_card2 {
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+}
+.container-card .column_card3 {
+  margin-top: 3rem;
+  margin-bottom: -3rem;
+}
+
+.footer-nav {
+  background-color: rgb(37, 37, 66);
+  height: 3em;
+}
+
+.footer__link {
+  color: white;
+}
+
+.container-footer {
+  height: 18rem;
+  background-color: #5265E1 !important;
+}
+
+.paragraph-footer {
+  font-family: monospace;
+  font-size: small;
+}
+
+.invalid-feedback {
+  background-color: #FA5959;
+  color: white;
+  margin-top: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+.facebook {
+  fill: white;
+}
+
+.twitter {
+  fill: white;
+}
+
+@media (max-width: 991px) {
+  .fig-right {
+    width: 65vw;
+    left: 17vw;
+    top: 9rem;
+  }
+  .column-right {
+    height: 25rem;
+  }
+  .fig-left {
+    width: 65vw;
+    left: -20vw;
+  }
+  .column-left-2 {
+    height: 25rem;
+  }
+  .container-card {
+    height: auto;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .fig-left {
+    width: 76vw;
+    left: -12vw;
+    top: 9rem;
+  }
+  .fig-right {
+    width: 65vw;
+    left: 17vw;
+    top: 7rem;
+  }
+}

@@ -1,0 +1,14 @@
+@import "../css/bootstrap.min.css";
+
+$primary: #5265E1;
+$secondary: #FA5959;
+
+.btn{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.14);
+   
+}
+.btn-primary {
+    background-color: $primary;
+}
+
+

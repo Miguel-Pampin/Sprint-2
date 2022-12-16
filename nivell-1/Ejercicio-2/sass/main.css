@@ -1,0 +1,95 @@
+@import "../css/bootstrap.min.css";
+.btn {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.14);
+}
+.btn-secondary {
+  background-color: #FA5959;
+  border: none;
+  color: white;
+  width: 7em;
+}
+
+.btn-primary {
+  background-color: #5265E1;
+}
+
+.navbar-link {
+  font-family: unset;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+.illustration-hero, .illustration-features-1  {
+  width: 30em;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+}
+.nav-tabs {
+  border: 0;
+}
+
+.nav-link.active {
+  border: 0;
+  border-bottom: 3px solid #FA5959 !important;
+  color: black;
+  font-weight: bold;
+}
+.navbar-expand-lg .navbar-nav  {
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+}
+.nav-link {
+  color: gray;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+}
+
+.figure {
+  position: relative;
+  height: 15rem;
+  background: #5265E1;
+  top: 7rem;
+  width: 38vw;
+}
+.fig-right {
+  border-radius: 100px 0 0 100px;
+  left: 10vw;
+}
+.fig-left {
+  border-radius: 0 100px 100px 0;
+  left: -10vw;
+}
+
+.column-right,.column-left-2 {
+  height: 20rem;
+}
+
+@media (max-width: 991px) {
+  .fig-right {
+    width: 65vw;
+    left: 17vw;
+    top: 9rem;
+  }
+  .column-right {
+    height: 25rem;
+  }
+  .fig-left {
+    width: 65vw;
+    left: -20vw;
+  }
+  .column-left-2 {
+    height: 25rem;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .fig-left {
+    width: 76vw;
+    left: -12vw;
+    top: 9rem;
+  }
+  .fig-right {
+    width: 65vw;
+    left: 17vw;
+    top: 7rem;
+  }
+}/*# sourceMappingURL=main.css.map */

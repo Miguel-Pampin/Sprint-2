@@ -1,0 +1,121 @@
+@import "../css/bootstrap.min.css";
+
+$primary: #5265E1;
+$secondary: #FA5959;
+
+.btn{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.14);
+}
+
+.btn-secondary{
+    background-color:$secondary;
+    border: none;
+    color:white;
+    width: 7em;
+}
+
+.btn-primary{
+    background-color: $primary;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+}
+
+.navbar-link{
+    font-family: unset;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+.nav-tabs{
+    border:0;
+}
+
+.illustration-hero{
+    width: 30em;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+}
+
+.figure {
+    position: relative;
+    height:15rem;
+    background: $primary;
+    top: 7rem;
+    width: 38vw;
+}
+
+.fig-right{
+    border-radius: 100px 0 0 100px;
+    left: 10vw;
+}
+
+.column-right{
+    height: 20rem;
+}
+
+.nav-tabs{
+    border:0;
+}
+.nav-link.active {
+    border:0;
+    border-bottom: 3px solid $secondary !important; 
+    color: black;
+    font-weight: bold;
+}
+
+.nav-link {
+    color:gray;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+}
+
+.illustration-features-1{
+    width: 30em;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+}
+
+.figure {
+    position: relative;
+    height:15rem;
+    background: $primary;
+    top: 7rem;
+    width: 38vw;
+}
+
+.fig-left{
+    border-radius:  0 100px 100px 0;
+    left: -10vw;
+}
+.column-left-2{
+    height: 20rem;
+}
+
+@media (max-width: 991px) {
+   
+    .fig-left{
+        width: 65vw;
+        left: -20vw;
+        
+    }
+   
+    .column-left-2{
+        height: 25rem;
+    }           
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+
+    .fig-left{
+        width: 77vw;
+        left: -12vw;
+        top: 9rem;
+    }
+
+}

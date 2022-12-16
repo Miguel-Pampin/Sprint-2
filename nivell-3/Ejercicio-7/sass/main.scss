@@ -1,0 +1,35 @@
+@import "../css/bootstrap.min.css";
+
+$primary: #5265E1;
+$secondary: #FA5959;
+
+.btn{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.14);
+   
+}
+.btn-primary {
+    background-color: $primary;
+}
+.container-card{
+
+    .column_card:nth-child(1){
+        margin-top: 1rem; 
+        margin-bottom: -1rem;
+    }
+    .column_card:nth-child(2){
+        margin-top: 2rem;
+        margin-bottom: -2rem;
+    }
+    .column_card:nth-child(3){
+        margin-top: 3rem;
+         margin-bottom: -3rem;
+    }
+
+}
+
+@media (max-width: 991px) {
+   
+    .container-card{
+        height: auto;
+    }        
+}

@@ -1,0 +1,190 @@
+@import "../css/bootstrap.min.css";
+.btn {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.14);
+}
+
+.btn-secondary {
+  background-color: #FA5959;
+  border: none;
+  color: white;
+  width: 7em;
+}
+.btn-secondary:hover {
+  color: #FA5959;
+  width: 7em;
+  background-color: white;
+  border: 1px solid #FA5959;
+}
+
+.btn-primary {
+  background-color: #5265E1;
+}
+.btn-primary:hover {
+  color: #5265E1;
+  background-color: white;
+}
+
+.btn-light:hover {
+  border-color: black;
+  color: black;
+  background-color: white;
+}
+
+.accordion-button:hover {
+  color: #FA5959;
+}
+
+.nav-link {
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  color: gray;
+}
+.nav-link:hover {
+  color: #FA5959;
+  border: none;
+}
+
+.navbar-expand-lg .navbar-nav {
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+}
+
+.navbar-link {
+  font-family: unset;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+.navbar-link:hover {
+  color: #FA5959;
+}
+
+.nav-tabs {
+  border: 0;
+}
+
+.nav-link.active {
+  border: 0;
+  border-bottom: 3px solid #FA5959 !important;
+  color: black;
+  font-weight: bold;
+}
+
+.illustration-hero, .illustration-features-1 {
+  width: 30em;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+}
+
+.figure {
+  position: relative;
+  height: 15rem;
+  background: #5265E1;
+  top: 7rem;
+  width: 38vw;
+}
+
+.fig-right {
+  border-radius: 100px 0 0 100px;
+  left: 10vw;
+}
+
+.fig-left {
+  border-radius: 0 100px 100px 0;
+  left: -10vw;
+}
+
+.column-right, .column-left-2 {
+  height: 20rem;
+}
+
+.footer-nav {
+  background-color: rgb(37, 37, 66);
+}
+
+.footer__link {
+  color: white;
+}
+
+.container-footer {
+  height: 18rem;
+  background-color: #5265E1 !important;
+}
+
+.paragraph-footer {
+  font-family: monospace;
+  font-size: small;
+}
+
+.invalid-feedback {
+  background-color: #FA5959;
+  color: white;
+  margin-top: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+.facebook {
+  fill: white;
+}
+.facebook:hover {
+  fill: #FA5959;
+}
+
+.twitter {
+  fill: white;
+}
+.twitter:hover {
+  fill: #FA5959;
+}
+
+.container-card .column_card1 {
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+}
+.container-card .column_card2 {
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+}
+.container-card .column_card3 {
+  margin-top: 3rem;
+  margin-bottom: -3rem;
+}
+
+@media (max-width: 991px) {
+  .fig-right {
+    width: 65vw;
+    left: 17vw;
+    top: 9rem;
+  }
+  .fig-left {
+    width: 65vw;
+    left: -20vw;
+  }
+  .column-right, .column-left-2 {
+    height: 25rem;
+  }
+  .container-card {
+    height: auto;
+  }
+  .list_features .nav-item:first-child {
+    border-top: 1px solid grey;
+  }
+  .accordion .accordion-item:first-child {
+    border-top: 1px solid rgba(145, 145, 145, 0.431);
+  }
+  .accordion .accordion-item:last-child {
+    border-bottom: 1px solid rgba(145, 145, 145, 0.431);
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .fig-right {
+    width: 65vw;
+    left: 17vw;
+    top: 7rem;
+  }
+  .fig-left {
+    width: 77vw;
+    left: -12vw;
+    top: 9rem;
+  }
+}/*# sourceMappingURL=main.css.map */

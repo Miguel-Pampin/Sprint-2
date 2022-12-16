@@ -1,0 +1,72 @@
+@import "../css/bootstrap.rtl.min.css";
+.btn {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.14);
+}
+
+.btn-secondary {
+  background-color: #FA5959;
+  border: none;
+  color: white;
+  width: 7em;
+}
+
+.btn-primary {
+  background-color: #5265E1;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+}
+
+.navbar-link {
+  font-family: unset;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+.nav-tabs {
+  border: 0;
+}
+
+.illustration-hero {
+  width: 30em;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+}
+
+.figure {
+  position: relative;
+  height: 15rem;
+  background: #5265E1;
+  top: 7rem;
+  width: 38vw;
+}
+
+.fig-right {
+  border-radius: 100px 0 0 100px;
+  left: 10vw;
+}
+
+.column-right {
+  height: 20rem;
+}
+
+@media (max-width: 991px) {
+  .fig-right {
+    width: 65vw;
+    left: 17vw;
+    top: 9rem;
+  }
+  .column-right {
+    height: 25rem;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .fig-right {
+    width: 65vw;
+    left: 17vw;
+    top: 7rem;
+  }
+}/*# sourceMappingURL=main.css.map */

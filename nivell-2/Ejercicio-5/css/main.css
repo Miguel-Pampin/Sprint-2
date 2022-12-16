@@ -1,0 +1,10 @@
+@import "../css/bootstrap.min.css";
+.btn-secondary {
+  color: white;
+  width: 7em;
+}
+.btn-secondary:hover {
+  color: #FA5959;
+  width: 7em;
+  background-color: white;
+}/*# sourceMappingURL=main.css.map */
